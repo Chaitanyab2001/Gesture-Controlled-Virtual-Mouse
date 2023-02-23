@@ -1,0 +1,6 @@
+conda create --name gest python=3.8.5
+conda activate gest
+pip install -r requirements.txt
+conda install pywin32
+cd src
+python Gesture_Controller.py
